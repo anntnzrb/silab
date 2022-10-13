@@ -1,0 +1,9 @@
+.mat-toolbar {
+    background: green;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+}
