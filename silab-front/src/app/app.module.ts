@@ -18,6 +18,9 @@ import { InicioComponent } from './comp/inicio/inicio.component';
 import { ContactoComponent } from './comp/common/contacto/contacto.component';
 import { MatCardModule } from '@angular/material/card';
 
+// twitter feed
+import { NgxTwitterWidgetsModule } from "ngx-twitter-widgets";
+
 
 @NgModule({
   declarations: [
@@ -37,7 +40,10 @@ import { MatCardModule } from '@angular/material/card';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+
+    // twitter feed
+    NgxTwitterWidgetsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
