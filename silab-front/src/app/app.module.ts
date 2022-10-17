@@ -11,10 +11,13 @@ import { NavbarComponent } from './comp/common/navbar/navbar.component';
 
 // material
 import { MatToolbarModule } from '@angular/material/toolbar'
-import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 import { FiltroComponent } from './comp/filtro/filtro.component';
 import { InicioComponent } from './comp/inicio/inicio.component';
+import { ContactoComponent } from './comp/common/contacto/contacto.component';
+import { MatCardModule } from '@angular/material/card';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +25,8 @@ import { InicioComponent } from './comp/inicio/inicio.component';
     AcercaComponent,
     NavbarComponent,
     FiltroComponent,
-    InicioComponent
+    InicioComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,8 @@ import { InicioComponent } from './comp/inicio/inicio.component';
     // Material
     MatToolbarModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
